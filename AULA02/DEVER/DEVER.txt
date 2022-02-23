@@ -1,0 +1,14 @@
+﻿DEVER DE CASA
+=============
+
+Receba pelo window.prompt nome, idade e sexo do usuário e exiba organizado no console.
+
+DESAFIO----------------------------------------------------------------------------------------
+
+Receba dois números através do window.prompt e exiba no console a soma e a subtração entre eles
+
+
+
+IMPORTANTE ====================================================================================
+
+TUDO DEVE SER FEITO USANDO FUNCTIONS. Declare e depois chame as funções.

@@ -1,0 +1,23 @@
+DEVER DE CASA
+=============
+
+1- Crie as seguintes variáveis:
+-nome, sobrenome, idade e sexo.
+
+Exiba no console os valores das variáveis.
+
+2- Crie as variáveis n1 e n2 e exiba no console: a soma, subtração, multiplicação;
+
+DESAFIO:
+1) Exiba o resultado no console como demonstrado abaixo:
+
+Nome Completo: Juca Bala
+Idade: 22 anos
+Gênero: masculino
+
+--Considerando os seguintes valores das variáveis:
+
+nome: Juca
+sobrenome: Bala
+idade: 22
+sexo: masculino
