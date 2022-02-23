@@ -1,0 +1,18 @@
+DEVER DE CASA
+=============
+
+Crie uma página com 4 botões, sabendo:
+
+- Botão 1 - Cadastro de Pessoas (Nome, Idade, Peso e Altura)
+    * Exiba no console os dados e o valor do IMC do usuário.
+    * IMC = Peso / Altura²
+
+- Botão 2 - Cálculo de Valores (Receba dois valores)
+    * Exiba no console o quadrado do valor e sua raiz quadrada.
+
+- Botão 3 - DESAFIO
+    * Exiba no console um valor inteiro aleatório entre 0 e 100.
+
+- Botão 4 - DESAFIO
+    * Receba dois valores e diga no console quem é o maior entre eles.
+
