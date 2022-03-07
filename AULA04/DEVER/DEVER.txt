@@ -1,0 +1,7 @@
+DEVER DE CASA
+=============
+
+Receba o nome e 4 notas de um aluno.
+Exiba a média das notas.
+Exiba se o aluno está aprovado, sabendo:
+de 0-4 = Reprovado, de 5 à 6 = Recuperação e de 7 pra cima = Aprovado.
