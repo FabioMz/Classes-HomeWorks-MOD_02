@@ -1,0 +1,19 @@
+DEVER DE CASA
+=============
+
+1-
+
+Trabalhando com Prompt e Console, faça:
+
+Recebba o nome e 4 notas do aluno.
+Guarde as notas em um Array.
+Imprima no console:
+ - Nome do aluno
+ - Média do aluno
+ - Condição do aluno (Aprovado com média >= 7, ou reprovado).
+
+2-
+
+Crie um Array com as siglas dos estados da região sudeste.
+Imprima no console o array inteiro.
+PODE-SE CRIAR DIRETO COM VALORES ARBITRÁRIOS.
