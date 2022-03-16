@@ -1,14 +1,14 @@
 DEVER DE CASA
-=============
+============
 
-Receba em um array, usando prompt os seguintes dados:
-  - nome
-  - idade
-  - peso
-  - altura
-Ficará assim no array:
-  Ex. ["juca", 18, 170, 89]
+receba em um array, usando o prompt,
+os seguintes dados de uma pessoa:
 
-Cadastre até o nome ser: "sair".
+nome, idade, altura e altura.
+Ficará assim no array: ex:
+["juca", 18 , 170, 89]
 
-Ao final imprima o array.
+cadastre até o nome ser "sair".
+
+
+ao final imprima o array.
