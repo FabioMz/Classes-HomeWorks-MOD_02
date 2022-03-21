@@ -1,10 +1,7 @@
-DEVER DE CASA
-=============
+Receba alunos com 4 notas, armazene no array:
+Nome, notas, media
 
-Receba aluinos com 4 notas, armazene no array:
-Nome, notas media
-
-Dê alguma opção para ancerrar o cadastro.
+Dê alguma opção para encerrar o cadastro.
 
 ao final exiba como abaixo:
 
@@ -13,8 +10,9 @@ Nota 1: 7
 Nota 2: 10
 Nota 3: 9
 Nota 4: 8
-Média:8.5
+Média: 8.5
 Situação: Aprovado
-----------------------------------------------
+-------------------------------------------
 
-Atenção: Situação se a média >= 7: Aprovado, senão Reprovado.
+
+Atenção: situação se a média maior ou igual a 7 está aprovado, senão reprovado
