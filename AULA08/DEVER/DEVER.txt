@@ -1,0 +1,10 @@
+﻿DEVER DE CASA
+=============
+
+Receba os dados de clientes com:
+Nome, data de nascimento e email.
+
+exiba da seguinte forma:
+Nome: Juca Bala
+Aniversário: 07/05
+Servidor de email: gmail.com

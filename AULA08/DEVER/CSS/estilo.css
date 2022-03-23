@@ -1,0 +1,83 @@
+* {
+    font-size: 18px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    background-image: url(./IMG/bg01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    margin: 3%;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    margin: 2%;
+    margin-bottom: 4%;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h3 {
+    margin: 2%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.task_bolder {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.ul_cont {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.obs {
+    display: block;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.destaque {
+    font-size: larger;
+}
+
+.dtq01 {
+    color: brown;
+}
+
+.dtq02 {
+    color: darkgreen;
+}
+
+.button {
+    margin: 0 auto;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.btn {
+    font-size: 1.5rem ;
+    font-weight: bold;
+}
+
+.exibConteiner {
+    border: solid #ffffff4b 2px;
+    border-radius: 15px;
+    margin-bottom: 2%;
+}
+
+.exibDados {
+    display: block;
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
