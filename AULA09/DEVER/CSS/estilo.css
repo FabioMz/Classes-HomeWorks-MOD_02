@@ -1,0 +1,50 @@
+body {
+    background-image: url(./IMG/Acura-Commitment-Program-xl.webp);
+}
+
+.form-group label {
+    text-align: right;
+}
+
+.input-md {
+    background-color: rgba(197, 212, 231, 0.575);
+    border: black;
+}
+
+.control-label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.divCentro {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+}
+
+#divCards {
+    display: none;
+    padding-left: 200px;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: rgba(197, 212, 231, 0.863);
+    box-shadow: 2px 2px 4px black;
+    font-weight: bold;
+    padding: 10px;
+    margin: 1%;
+}
+
+.centerTitle {
+    margin-bottom: 4%;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(106, 125, 143);
+}
+
+.form-group label {
+    text-align: right;
+}
+
+.input-md {
+    background-color: rgba(197, 212, 231, 0.774);
+    border: black;
+}
+
+.control-label {
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.divCentro {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+}
+
+#divResult {
+    display: none;
+    padding-left: 200px;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: rgb(154, 176, 199);
+    box-shadow: 2px 2px 4px black;
+    font-weight: bold;
+    padding: 10px;
+    margin: 1%;
+}
+
+.centerTitle {
+    margin-bottom: 4%;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 3rem;
+}
