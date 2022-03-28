@@ -42,7 +42,7 @@ function exibAnuncio() {
     }
 
     document.getElementById("cardsAnun").innerHTML = texto;
-    document.getElementById("divResult").style.display = "block";
+    document.getElementById("divCards").style.display = "block";
 
 }
 
