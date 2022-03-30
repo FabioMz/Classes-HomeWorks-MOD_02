@@ -1,0 +1,6 @@
+MELHORE O DEVER DE CASA ANTERIOR ADICIONANDO:
+
+1 - SELECT com CARRO ou MOTO.
+2 - Ao exibir os resultados, deverá ter uma lista de carros e outra de motos separadas (DIV diferentes);
+
+--------USE um array para carro e outro para moto

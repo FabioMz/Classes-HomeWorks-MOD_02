@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2d5b8b;
+}
+
+.containerForm {
+    background-image: url(./IMG/Acura-Commitment-Program-xl.webp);
+    background-size: cover;
+}
+
+/* .cardsBg {
+    background-image: url(./IMG/textura-da-estrada-do-asfalto-com-marcações-109441294.jpg);
+    background-size: cover;
+} */
+
+h3 {
+    color: ivory;
+}
+
+.form-group label {
+    text-align: right;
+}
+
+.input-md, .select   {
+    background-color: rgba(197, 212, 231, 0.575);
+    border: black;
+}
+
+#disabledSelect {
+    text-align: center;
+}
+
+.control-label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.divCentro {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+}
+
+.conteinerAnuncios {
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 1%;
+}
+
+#divCardsCarro, #divCardsMoto {
+    display: none;
+}
+
+.cardCarro, .cardMoto {
+    border-radius: 10px;
+    background-color: rgba(208, 214, 221, 0.863);
+    box-shadow: 2px 2px 4px black;
+    font-weight: bold;
+    text-align: justify;
+    padding: 10px;
+    margin: 1%;
+}
+
+.centerTitle {
+    margin-bottom: 4%;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
