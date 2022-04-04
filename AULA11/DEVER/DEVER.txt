@@ -1,0 +1,8 @@
+DEVER DE CASA
+=============
+
+Crie uma página que receba os dados de um jogador com:
+nome, idade, peso, altura, time e posição.
+Ao clicar no botão CADASTRAR exiba no console/página o jogador presente no formulário.
+não precisa armazenar em array, vai exibir apenas no momento do clique no botão.
+PRECISA ARMAZENAR EM UM OBJETO PARA EXIBIÇÃO DO MESMO.

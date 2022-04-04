@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes</title>
+</head>
+<body>
+
+    <h3>INTRODUÇÃO À POO</h3>
+    <h6>Programação Orientada à Objeto</h6>
+
+</body>
+
+<script>
+
+    // Definindo um objeto chamado 'pessoa'
+    var pessoa = { nome: "Juca Bala", idade: 22, sexo:"masculino" };
+            //{proriedade: valor, propriedade: valor, propriedade: valor}
+    console.log("Nome: " + pessoa.nome);
+
+    // Definindo um array 'pessoas', e introduzindo nele o objeto préviamente criado, entrando então no index '0' do array.
+    var pessoas = [pessoa];
+    console.log("Nome: " + pessoas[0].nome);
+
+    // Fazendo push de mais um objeto no array 'pessoas', este entrou no index '1'.
+    pessoas.push({idade: 30, sexo: "feminino", nome: "Ana Bala"});
+    console.log("----------------------");
+    console.log("Nome: " + pessoas[1].nome);
+
+    // Redefinindo os valores do objecto 'pessoa' e dando push p/ o array.
+    pessoa.nome = "Tião Bala";
+    pessoa.idade = 50;
+    pessoa.sexo = "Masculino";
+    pessoas.push(pessoa);
+
+    console.log("----------------------");
+    for(let i = 0; i < pessoas.length ; i++){
+        console.log("Nome:"     + pessoas[i].nome);
+        console.log("Idade:"    + pessoas[i].idade);
+        console.log("Sexo:"     + pessoas[i].sexo);
+        console.log("----------------------");
+    }
+
+    for(let i = 0 ; i < 3 ; i++){
+        console.log(i);
+    }
+
+    var animal = {nome: "Garfield", especie: "Gato", som: "mia"};
+    console.log(animal.nome + " " +
+                 "é um  " + animal.especie + " "+
+                 "e ele " + animal.som);
+    
+    animal.nome = "Pluto";
+    animal.especie = "Cachorro";
+    animal.som = "late";
+
+    console.log(animal.nome + " " +
+                 "é um  " + animal.especie + " "+
+                 "e ele " + animal.som);
+
+    animal.nome = "Pateta";
+    animal.som = "fala";
+
+    console.log(animal.nome + " " +
+                 "é um  " + animal.especie + " "+
+                 "e ele " + animal.som);
+
+</script>
+</html>

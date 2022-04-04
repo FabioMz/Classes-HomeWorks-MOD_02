@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/estilo.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1>Loja de Carros</h1>
+        <form class="form-horizontal" id="form-cadastro">
+            <fieldset>
+
+                <!-- Form Name -->
+                <legend>Cadastro de Veículos</legend>
+
+                <!-- Select Basic -->
+                <div class="row linha-form">
+                    <label class="col-md-4 control-label" for="selectCategoria">Categoria</label>
+                    <div class="col-md-4">
+                        <select id="selectCategoria" name="selectCategoria" class="form-control">
+                            <option value="-1" disabled selected>CARRO x MOTO</option>
+                            <option value=0>Carro</option>
+                            <option value=1>Moto</option>
+                        </select>
+                    </div>
+                    <hr/>
+
+                    <!-- Text input-->
+                    <div class="row linha-form">
+                        <label class="col-md-4 control-label" for="inputModelo">Modelo</label>
+                        <div class="col-md-6">
+                            <input id="inputModelo" name="inputModelo" type="text" placeholder=""
+                                class="form-control input-md" required="">
+
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="row linha-form container">
+                        <label class="col-md-4 control-label" for="inputAno">Ano</label>
+                        <div class="col-md-2">
+                            <input id="inputAno" name="inputAno" type="number" placeholder=""
+                                class="form-control input-md" maxlength="4" max="2022">
+
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="row linha-form container">
+                        <label class="col-md-4 control-label" for="inputCor">Cor</label>
+                        <div class="col-md-2">
+                            <input id="inputCor" name="inputCor" type="color" placeholder=""
+                                class="form-control input-md">
+
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="row linha-form container">
+                        <label class="col-md-4 control-label" for="inputPlaca">Placa</label>
+                        <div class="col-md-4">
+                            <input id="inputPlaca" name="inputPlaca" type="text" placeholder=""
+                                class="form-control input-md">
+
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="row linha-form container">
+                        <label class="col-md-4 control-label" for="inputPreco">Preço (R$)</label>
+                        <div class="col-md-4">
+                            <input id="inputPreco" name="inputPreco" type="text" min="0" placeholder=""
+                                class="form-control input-md" onfocus="colocaCifrao();">
+
+                        </div>
+                    </div>
+
+                    <!-- Button -->
+                    <div class="row linha-form container">
+                        <label class="col-md-4 control-label" for="singlebutton"></label>
+                        <div class="col-md-4">
+                            <button type="button" class="btn btn-success" onclick="cadastrar();">Cadastrar</button>
+                        </div>
+                    </div>
+
+            </fieldset>
+        </form>
+    </div>
+
+    <div class="container">
+        <button type="button" class="btn btn-info" onclick="exibirCadastro();">Mostrar Cadadastro</button>
+    </div>
+    <div class="container" id="results">
+        <h3>Carros Cadastrados</h3>
+        <hr />
+        <div id="listaCarros" class="row"></div>
+        <hr/>
+        <hr/>
+        <hr/>
+        <h3>Motos Cadastradas</h3>
+        <hr />
+        <div id="listaMotos" class="row"></div>
+    </div>
+
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="./JS/carros.js"></script>
+</body>
+
+</html>
