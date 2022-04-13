@@ -1,0 +1,9 @@
+DEVER DE CASA
+=============
+
+Crie uma página de cadastro de produtos com:
+nome, setor e preço;
+//setor: latícionios, remédios, verduras, padaria, etc
+
+Crie uma classe de produtos. Armazene os produtos em um array de produtos.
+exiba todos os cadastros no fim da formulário/console;

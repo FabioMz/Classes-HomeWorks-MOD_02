@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Datas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 15pt;
+        }
+
+        h1 {
+            font-size: 35pt;
+        }
+
+        body {
+            text-align: center;
+            background-color: lightseagreen;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style=" margin-top: 10%; margin-bottom: 4%;">Trabalhando cam Datas</h1>
+
+    <script>
+
+        let data = new Date();
+        document.writeln("Hoje é: " + data);
+
+        let data2 = new Date("1991/08/12");
+        document.writeln("</br></br> Grande acontecimento: " + data2);
+
+        let data3 = new Date("2001-09-11 08:46:35");
+        document.writeln("</br></br> Primeiro Impacto: " + data3);
+
+        document.writeln("</br></br> Dia de hoje: " + data.getDate() + "/" + (data.getMonth()+1) + "/" + data.getFullYear());
+
+
+    </script>
+
+</body>
+</html>

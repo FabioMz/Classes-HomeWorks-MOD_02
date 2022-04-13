@@ -1,0 +1,21 @@
+.price-tag{
+    /* background-image: url("./IMG/etiqueta.png"); */
+    width: 200px;
+    /* height: 160px;
+    padding-left: 150px;
+    padding-top: 30px;
+    background-size: cover; */
+    font-size: 22pt;
+    color: white;
+}
+.nomeProduto{
+    font-size: 28pt;
+    font-weight: bolder;
+}
+.setorProduto{
+    font-style: italic;
+    font-size: 18pt;
+}
+.precoProduto{
+    font-weight: bolder;
+}

@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(./IMG/bg.jpg);
+    background-size: cover;
+}
+
+.title_h1 {
+    margin-top: 4%;
+    font-size: 3.5rem;
+}
+
+.title_h2-2 {
+    margin-top: 4%;
+}
+
+.title_h2 {
+    margin-bottom: 4%;
+}
+
+.control-label {
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+#selectSet {
+    color: #6C757D;
+}
+
+.selectSet {
+    color: rgb(77, 77, 77);
+}
+
+.disabled {
+    color: aliceblue;
+    background-color: gray;
+}
+
+.divBtn {
+    margin: 0 auto;
+}
+
+#containerEtiqs {
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.cardEtiq {
+    background-image: url(./IMG/etiqueta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    width: 150px;
+    height: 279px;
+    margin: 0 auto;
+}
+
+.cardText {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: aliceblue;
+}
+
+.setor {
+    font-size: 0.8rem;
+    text-decoration: underline;
+}
+
+.setor-pos {
+    text-align: center;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 12px;
+    width: 130px;
+}
+
+.produto {
+    font-size: 1.2rem;
+}
+
+.produto-pos {
+    text-align: center;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 160px;
+    width: 130px;
+}
+
+.preco {
+    font-size: 1rem;
+}
+
+.preco-pos {
+    text-align: center;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 8px;
+    width: 130px;
+}
+
+#containerEtiqs {
+    display: none;
+}

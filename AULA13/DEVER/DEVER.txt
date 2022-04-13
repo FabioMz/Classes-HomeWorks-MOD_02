@@ -1,0 +1,10 @@
+DEVER DE CASA
+=============
+
+Crie uma página de cadastro de contatos.
+Exiba os contatos cadastrados usando essa imagem de fundo:
+https://png.pngtree.com/thumb_back/fh260/back_our/20190623/ourmid/pngtree-blue-business-atmosphere-business-card-background-image_243064.jpg
+
+cada contato com seu cartão
+
+USE CLASSES E ARRAY!

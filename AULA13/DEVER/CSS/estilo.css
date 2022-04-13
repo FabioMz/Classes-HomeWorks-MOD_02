@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#formContatos {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card {
+    width: 350px;
+    padding: 20px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.imgCard {
+    width: 100%;
+}
+.dadosCard {
+    position: absolute;
+    bottom: 45px;
+    right: 35px;
+    color: white;
+    font-size: 15pt;
+    text-shadow: 1px 1px 1px black;
+}

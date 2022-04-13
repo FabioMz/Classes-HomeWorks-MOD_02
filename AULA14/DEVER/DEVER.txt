@@ -1,0 +1,9 @@
+DEVER DE CASA
+=============
+
+Crie um formulário de cadastro para um petshop
+Bichinho tem nome, espécie, serviço, dia/hora do serviço.
+
+imprima abaixo após o cadastro.
+
+USE CLASSE COM CONSTRUCTOR, GUARDE EM ARRAY.

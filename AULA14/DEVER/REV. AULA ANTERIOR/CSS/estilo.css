@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./IMG/bg-PETS.png);
+}
+
+.h1 {
+    font-size: 50pt;
+    text-shadow: 4px 4px 4px rgba(37, 35, 35, 0.915);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.spanAgend {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+h1, .form-conteiner {
+    text-align: center;
+}
+
+.btn {
+    font-size: 20pt;
+}
+
+.card {
+    width: 400px;
+    margin: 20px;
+    font-size: 15pt;
+    text-align: center;
+    background-image: url(./IMG/cardPet.jpg);
+}
+
+.cardDiv {
+    margin: 0 auto;
+}
