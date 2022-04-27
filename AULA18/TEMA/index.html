@@ -12,7 +12,7 @@
         text-align: right;
     }
 
-    .divCalc {
+    .divCalc, .histCont {
         margin: 0 auto;
         text-align: center;
     }
@@ -21,31 +21,46 @@
 </head>
 <body>
     
-    <section class="calcualdora" style=" margin-top: 200px; border: 1px gray;">
+    <section class="calcualdora" style=" margin-top: 200px">
 
-        <div class="divCalc row mt-4" style="width: 15%; border: 1px gray;">
+        <div class="divCalc row1 row mt-4" style="width: 15%;">
             <input type="text" id="visor" class="form-control input-md mb-4" disabled>
-            <button type="button" class="col-sm-4" onclick="numero('7')">7</button>
-            <button type="button" class="col-sm-4" onclick="numero('8')">8</button>
-            <button type="button" class="col-sm-4" onclick="numero('9')">9</button>
-            <button type="button" class="col-sm-4" onclick="numero('4')">4</button>
-            <button type="button" class="col-sm-4" onclick="numero('5')">5</button>
-            <button type="button" class="col-sm-4" onclick="numero('6')">6</button>
-            <button type="button" class="col-sm-4" onclick="numero('1')">1</button>
-            <button type="button" class="col-sm-4" onclick="numero('2')">2</button>
-            <button type="button" class="col-sm-4" onclick="numero('3')">3</button>
-            <div type="button" class="col-sm-4" disabled></div>
-            <button type="button" class="col-sm-4" onclick="numero('0')">0</button>
-            <div type="button" class="col-sm-4" disabled></div>
+            <button type="button" class="col-sm-3" onclick="numero('7')">7</button>
+            <button type="button" class="col-sm-3" onclick="numero('8')">8</button>
+            <button type="button" class="col-sm-3" onclick="numero('9')">9</button>
+            <button type="button" class="col-sm-3" onclick="apagar('←')">←</button>
         </div>
 
-        <div class="divCalc row mt-4" style="width: 15%;">
-            <button type="button" class="col-sm-4" onclick="operador('+')">+</button>
-            <button type="button" class="col-sm-4" onclick="operador('-')">-</button>
-            <button type="button" class="col-sm-4" onclick="operador('x')">x</button>
-            <button type="button" class="col-sm-4" onclick="operador('÷')">÷</button>
-            <button type="button" class="col-sm-4" onclick="igual()">=</button>
-            <button type="button" class="col-sm-4" onclick="numero('.')">.</button>
+        <div class="divCalc row2 row" style="width: 15%;">
+            <button type="button" class="col-sm-3" onclick="numero('4')">4</button>
+            <button type="button" class="col-sm-3" onclick="numero('5')">5</button>
+            <button type="button" class="col-sm-3" onclick="numero('6')">6</button>
+            <button type="button" class="col-sm-3" onclick="operador('x')">x</button>
+        </div>
+
+        <div class="divCalc row3 row" style="width: 15%;">
+            <button type="button" class="col-sm-3" onclick="numero('1')">1</button>
+            <button type="button" class="col-sm-3" onclick="numero('2')">2</button>
+            <button type="button" class="col-sm-3" onclick="numero('3')">3</button>
+            <button type="button" class="col-sm-3" onclick="operador('-')">-</button>
+        </div>
+
+        <div class="divCalc row4 row" style="width: 15%;">
+            <button type="button" class="col-sm-3" onclick="numero('.')">.</button>
+            <button type="button" class="col-sm-3" onclick="numero('0')">0</button>
+            <button type="button" class="col-sm-3" onclick="operador('÷')">÷</button>
+            <button type="button" class="col-sm-3" onclick="operador('+')">+</button>
+        </div>
+
+        <div class="divCalc row4 row" style="width: 15%;">
+            <button type="button" class="col-sm-3" onclick="raiz('√')">√</button>
+            <button type="button" class="col-sm-3" onclick="porcento('%')">%</button>
+            <button type="button" class="col-sm-6" onclick="igual('=')">=</button>
+        </div>
+
+        <div class="histCont row mt-4" style="width: 15%;">
+            <div id="histSaida" class="histSaida"></div>
+            <button id="btnLimpa" type="button" class="col" onclick="limpar()">Limpar</button>
         </div>
 
     </section>

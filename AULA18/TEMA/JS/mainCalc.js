@@ -14,9 +14,25 @@ function operador(btn){
     memoria =  Number(visor.value);
     visor.value = "";
     operacao = btn;
+    document.getElementById("histSaida").innerHTML += memoria + " " + operacao + " ";
 }
 
-function igual(){
+function apagar() {
+    visor.value = visor.value.slice(0, -1);
+}
+
+function raiz() {
+    let total = Math.sqrt(Number(visor.value));
+    document.getElementById("histSaida").innerHTML += "√" + visor.value + " " + "=" + " " + total + '</br>'
+    visor.value = total;
+}
+
+function porcento() {
+    document.getElementById("histSaida").innerHTML += " (" + visor.value + "%" + " )";
+    visor.value = memoria * Number(visor.value) / 100;
+}
+
+function igual(btn){
     let valor = Number(visor.value);
 
     switch(operacao){
@@ -33,4 +49,11 @@ function igual(){
             visor.value = memoria / valor;
             break;
     }
+
+
+    document.getElementById("histSaida").innerHTML += valor + " " + btn + " " + visor.value + '</br>';
+}
+
+function limpar() {
+    document.getElementById("histSaida").innerHTML = "";
 }
