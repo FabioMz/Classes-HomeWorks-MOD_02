@@ -1,0 +1,33 @@
+* {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+h1 {
+    margin-top: 8%;
+    font-size: 5rem;
+}
+
+#saidaDesafio {
+    margin-top: 4%;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 12rem;
+    border-radius: 15px;
+    background-color: rgba(40, 102, 98, 0.509);
+    border: 2px solid rgb(19, 73, 69);
+    box-shadow: 4px 4px 4px rgb(19, 73, 69);
+    
+}
+
+.btn {
+    margin: 4px;
+    margin-top: 3%;
+    font-size: 1.5rem;
+    background-color: rgb(19, 73, 69);
+    border: 2px solid rgb(19, 73, 69);
+}
