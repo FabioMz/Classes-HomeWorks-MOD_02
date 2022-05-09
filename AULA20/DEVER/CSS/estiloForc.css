@@ -1,0 +1,114 @@
+* {
+    color: ivory;
+    text-align: center;
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-color: rgb(32, 34, 34);
+}
+
+#faustoCont {
+    display: none;
+    width: 600px;
+    height: 420px;
+    margin-top: 15px;
+    margin-left: 510px;
+    position: absolute;
+    background-size: cover;
+    background-image: url(./IMG/fausto.png);
+}
+
+#faustoEnforcadoCont {
+    display: none;
+    width: 150px;
+    height: 174px;
+    margin-top: 128px;
+    margin-left: 843px;
+    position: absolute;
+    background-size: cover;
+    background-image: url(./IMG/faustoEnforcado.png);
+}
+
+#faustoGanhaCont {
+    display: none;
+    width: 600px;
+    height: 420px;
+    margin-top: 15px;
+    margin-left: 510px;
+    position: absolute;
+    background-size: cover;
+    background-image: url(./IMG/faustoGanha.png);
+}
+
+.title {
+    margin-top: 2%;
+}
+
+.title_01 {
+    font-size: 35pt;
+}
+
+.title_02 {
+    margin-top: 2%;
+    font-size: 18pt;
+}
+
+.title_03 {
+    margin-top: 1%;
+    font-size: 14pt;
+}
+
+.goreWords {
+    color: rgb(185, 34, 34);
+    font-size: 25pt;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+
+.enforcado {
+    margin-top: 180px;
+    margin-left: -95px;
+    position: absolute;
+}
+
+.mainSect {
+    margin: 2%;
+}
+
+.sectLeft {
+    height: 500px;
+}
+
+.sectRight {
+    height: 500px;
+}
+
+.sectForca {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./IMG/forcaEmpty.png);
+}
+
+.sectForm {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+#cronometro {
+    font-size: 60pt;
+    margin-top: 160px;
+    margin-left: -75px;
+    position: absolute;
+}
+
+#btn-tentaOutra {
+    display: none;
+    margin: 0 auto;
+    margin-top: 4%;
+}

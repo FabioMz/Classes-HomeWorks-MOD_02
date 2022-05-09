@@ -1,0 +1,9 @@
+JOGO DA FORCA
+=============
+
+cadastre uma palavra em uma variável
+coloque um input para cada letra
+o usuário tem 60 segundos para advinhar todas as letras.
+
+Condição de vitória: acertar todas as letras antes dos 60 segundos.
+Condição de derrota: não acertar todas as letras em menos de 60 segundos.
