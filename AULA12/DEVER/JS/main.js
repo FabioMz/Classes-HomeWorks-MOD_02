@@ -1,7 +1,7 @@
 
 let produtos = [];
 
-class Produto {
+class produto {
     nome;
     setor;
     preco;
@@ -9,7 +9,6 @@ class Produto {
 
 function cadastrar() {
 
-    let produto = new Produto();
     produto.setor = document.getElementById("selectSet").value;
     produto.nome = document.getElementById("inputProd").value;
     produto.preco = document.getElementById("inputPreco").value;
@@ -48,13 +47,13 @@ function cadastrar() {
             document.getElementById("spanPreco").innerHTML = produto.preco;
     }
 
-    produtos.push(produto);
-    console.log([produtos]);
+    produtos.push(produto)
+    console.log([produtos])
 
 
     //CRIANDO NOVOS ELEMENTOS HTML BASEADOS NO QUE FOI CADASTRADO PELO USUÁRIO ---------------------------- 
 
-    // NOVA DIV cardEtiq
+    // // NOVA DIV cardEtiq
     // let novoCardEtiq = "";
     // novoCardEtiq += '<div id="cardEtiq" class="cardEtiq">' + '</div>';
     // document.getElementById("containerEtiqs").innerHTML += novoCardEtiq;
@@ -62,7 +61,7 @@ function cadastrar() {
     // // NOVA DIV divSpanSetor
     // let novadivSpanSetor = "";
     // novadivSpanSetor += '<div id="divSpanSetor" class="cardText setor-pos">' + '</div>';
-    // document.getElementById("cardEtiq").innerHTML += novadivSpanSetor;
+    // document.getElementBY("cardEtiq").innerHTML += novadivSpanSetor;
 
     // // NOVO SPAN spanSetor
     // let novoSpanSetor = "";
@@ -89,8 +88,8 @@ function cadastrar() {
     // novoSpanPreco += '<span id="spanPreco" class="cardText preco">' + produto.preco + '</span>';
     // document.getElementById("divSpanPreco").innerHTML += novoSpanPreco;
 
-    // // Transmutando Elementos HTML
-    // document.getElementById("containerEtiqs").style.display = "block";
-    // document.getElementById("form-produtos").reset();
+    // Transmutando Elementos HTML
+    document.getElementById("containerEtiqs").style.display = "block";
+    document.getElementById("form-produtos").reset();
 
 }
