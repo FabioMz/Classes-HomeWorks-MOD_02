@@ -1,0 +1,9 @@
+DEVER DE CASA
+=============
+
+
+Exiba na página a sua data de nascimento exibindo em 3 formatos diferentes
+
+DD/MM/AAAA
+Dia da Semana, dia de Mês de Ano
+MM-DD-AAAA

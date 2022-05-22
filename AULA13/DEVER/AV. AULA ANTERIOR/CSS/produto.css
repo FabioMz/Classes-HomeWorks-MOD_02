@@ -1,0 +1,25 @@
+.price-tag{
+    width: 200px;
+    color: white;
+    position: relative;
+}
+.nomeProduto{
+    font-weight: bolder;
+}
+.setorProduto{
+    font-style: italic;
+}
+.precoProduto{
+    font-weight: bolder;
+}
+.div-img-tag{
+    position: relative;
+}
+.img-tag{
+    width: 100%;
+}
+.dados-tag{
+    position: absolute;
+    top: 10px;
+    left: 65px;
+}

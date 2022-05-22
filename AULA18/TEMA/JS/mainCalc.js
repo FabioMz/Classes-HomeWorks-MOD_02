@@ -28,7 +28,7 @@ function raiz() {
 }
 
 function porcento() {
-    document.getElementById("histSaida").innerHTML += " (" + visor.value + "%" + " )";
+    document.getElementById("histSaida").innerHTML += " (" + visor.value + "%" + ") ";
     visor.value = memoria * Number(visor.value) / 100;
 }
 
@@ -51,9 +51,18 @@ function igual(btn){
     }
 
 
+    document.getElementById("histCont").style.display = "block";
     document.getElementById("histSaida").innerHTML += valor + " " + btn + " " + visor.value + '</br>';
+}
+
+function limparVisor() {
+    visor.value = "";
 }
 
 function limpar() {
     document.getElementById("histSaida").innerHTML = "";
+}
+
+function fechaHist() {
+    document.getElementById("histCont").style.display = "none";
 }

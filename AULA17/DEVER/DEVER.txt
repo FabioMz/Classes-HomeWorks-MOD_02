@@ -1,0 +1,8 @@
+DEVER DE CASA
+=============
+
+Crie um formulário que receba pagamentos de boletos  de uma escola.
+O formulário terá: Vencimento do Boleto, Valor e matrícula do aluno.
+
+Caso o aluno esteja pagando com, pelo menos, 5 dias adiantando haverá um desconto de 10% do valor.
+Caso esteja atrasado, a multa será de 11%, mais diárias de 1,2%.

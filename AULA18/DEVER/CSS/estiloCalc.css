@@ -1,0 +1,101 @@
+* {
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    background-color: rgba(53, 66, 78, 0.904);
+}
+
+h1 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    text-shadow: 6px 6px 2px rgba(0, 0, 0, 0.281);
+}
+
+#visor{
+    text-align: right;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+.calcCont {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1.5%;
+    border: 1px solid rgba(0, 0, 0, 0.493);
+    border-radius: 10px;
+    background-color: rgba(136, 144, 153, 0.651);
+}
+
+.CalcRow, .histCont {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.histCont {
+    display: none;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 4px;
+    padding-bottom: 1%;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.493);
+    background-color: rgba(136, 144, 153, 0.651);
+}
+
+.histSaida {
+    margin-top: 2%;
+    margin-bottom: 4%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-radius: 10px;
+    background-color: #E9ECEF;
+    border: 1px solid #B2B7BD;
+}
+
+#spanHist {
+    font-size: 18px;
+    color: #202122;
+    text-shadow: 1px 2px 2px #202122c0;
+}
+
+#mem {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgba(4, 41, 78, 0.904);
+}
+
+#btnLimpa {
+    margin: 0 auto;
+}
+
+.btnFechaHist {
+    width: 20px;
+    height: 20px;
+    font-size: .8rem;
+    font-weight: bold;
+    margin-top: -41px;
+    margin-left: 140px;
+    border: #6e6e6e;
+    position: absolute;
+    text-align: center;
+    border-radius: 15px;
+    vertical-align: middle;
+    background-color: #EFEFEF;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.555);
+}
+
+.btnFechaHist:hover{
+    width: 19px;
+    height: 19px;
+}

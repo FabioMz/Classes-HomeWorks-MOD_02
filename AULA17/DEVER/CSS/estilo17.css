@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.title, .descr {
+    text-align: center;
+}
+
+.t01 {
+    font-size: 3rem;
+}
+
+.label {
+    font-size: 0.8rem;
+}
+
+.bodyCont, .inputCont, .input-md {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.boletCont {
+    display: none;
+}
+
+.saidaCont {
+    width: 692px;
+    height: 428px;
+    margin: 0 auto;
+    background-image: url(./IMG/boleto_edit.jpg);
+}
+
+.span {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.spanNomeMatr {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -325px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+
+.spanDatDoc {
+    position: absolute;
+    margin-top: 105px;
+    margin-left: -325px;
+}
+
+.spanDatProc {
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 30px;
+}
+
+.spanDatVenc {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 150px;
+}
+
+.spanValDoc {
+    position: absolute;
+    margin-top: 132px;
+    margin-left: 150px;
+}
+
+.spanValDesc {
+    position: absolute;
+    margin-top: 158px;
+    margin-left: 150px;
+    color: rgb(12, 117, 12);
+}
+
+.spanMulta {
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 150px;
+    color: rgb(158, 10, 10);
+}
+
+.spanJuros {
+    position: absolute;
+    margin-top: 242px;
+    margin-left: 150px;
+    color: rgb(158, 10, 10);
+}
+
+.spanTotal {
+    position: absolute;
+    margin-top: 268px;
+    margin-left: 150px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.spanPago {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: -215px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.spanAdianto {
+    position: absolute;
+    margin-top: 220px;
+    margin-left: -300px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.spanAtraso1, .spanAtraso2 {
+    position: absolute;
+    margin-top: 238px;
+    margin-left: -292px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.spanAtraso2 {
+    margin-top: 255px;
+    margin-left: -215px;
+}

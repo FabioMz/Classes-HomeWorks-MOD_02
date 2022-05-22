@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datas</title>
+</head>
+<body>
+    <h1>Datas</h1>
+
+    <div id="dataCompleta"></div>
+    <div id="dataBr"></div>
+    <div id="entrega"></div>
+    <script src="./JS/moment.min.js"></script>
+    <script>
+        let data = new Date();//pega a data do sistema
+        let meses = ['Janeiro', 'Fevereiro','Março','Abril','Maio','Junho',
+            'Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'];
+        let diaSemana = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
+
+        let dataCompleta = diaSemana[data.getDay()] + ", " +
+                           data.getDate() + " de " +
+                           meses[data.getMonth()] + " de " +
+                           data.getFullYear() + ".";
+
+        document.getElementById("dataCompleta").innerHTML = dataCompleta;
+
+        let dataBr = data.getDate() + "/" + (data.getMonth()+1) + "/" + data.getFullYear();
+        let dataBr2 = data.toLocaleString("pt-br");
+
+        document.getElementById("dataBr").innerHTML = dataBr + "<hr/>" + dataBr2;
+        
+        //a data de entrega é de 4 a partir de hoje.
+
+        // let entrega1 = diaSemana[(data.getDay()+4)] + ", " +
+        //                    (data.getDate() + 4) + " de " +
+        //                    meses[data.getMonth()] + " de " +
+        //                    data.getFullYear() + ".";
+
+        let entrega1 = data.setDate(data.getDate() + 5);
+        entrega1 = new Date(entrega1);
+        document.getElementById("entrega").innerHTML = entrega1;
+
+        let data2 = moment();
+
+        console.log(data2.format("DD/MM/YY"));
+
+        let data3 = moment("2021-12-25");
+        console.log(data3.format("DD/MM/YYYY"));
+
+        let data4 = moment("12/10/2021","DD/MM/YYYY");
+        console.log(data4.format("DD/MM/YYYY"));
+    </script>
+   
+</body>
+</html>

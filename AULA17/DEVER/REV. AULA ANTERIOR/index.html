@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dever de casa</title>
+</head>
+<body>
+    
+
+    <script src="./js/moment-with-locales.min.js"></script>
+    <script>
+        moment.locale("pt-br");
+        let dataExtenso = moment().format('dddd, LL');
+        document.write(dataExtenso + "<br/>");
+
+        let dataDDMMAAAA = moment().format("DD/MM/YYYY");
+        document.write(dataDDMMAAAA + "<br/>");
+        let dataMMDDAAAA = moment().format("MM/DD/YYYY");
+        document.write(dataMMDDAAAA + "<br/>");
+    </script>
+</body>
+</html>

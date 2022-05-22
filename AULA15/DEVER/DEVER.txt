@@ -1,0 +1,6 @@
+DEVER DE CASA
+=============
+
+Usando o dever de casa anterior, melhore-o com a seguinte melhoria:
+
+Exibirá apenas os cadastros agendados para data atual do sistema.

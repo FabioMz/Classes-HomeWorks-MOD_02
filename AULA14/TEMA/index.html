@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construtores</title>
+</head>
+<body>
+    <h1>Construtores</h1>
+    
+    <script>
+        class Contato{
+            nome;
+            telefone;
+            email;
+
+            //function que roda ao instanciar a classe
+            //ou seja quando vc faz: variavel = new Contato();
+            constructor(nomeparam, telefoneparam, emailparam){
+                this.nome = nomeparam;
+                this.telefone = telefoneparam;
+                this.email = emailparam;
+              //destaclasse.propriedade = parâmetro;  
+            }
+        }
+
+        let c = new Contato(("Juca Bala","21 2253-1177","jbala@oi.com"));
+        console.log(c);
+
+        class Pessoa{
+            nome;
+            telefone;
+
+            constructor(){
+                this.nome = window.prompt("Nome");
+                this.telefone =  window.prompt("Telefone");
+            }
+        }
+
+        let p = new Pessoa();
+        console.log(p);
+
+        let p2 = new Pessoa();
+        console.log(p2);
+    </script>
+</body>
+</html>

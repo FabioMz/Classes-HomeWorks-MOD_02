@@ -1,0 +1,1 @@
+implemente os botões que faltam na calculadora, usando como base a calculadora básica do windows.
