@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORCA</title>
+</head>
+<body>
+
+    <!-- <input type="text" id="letra1" maxlength="1" size="1" disabled>
+    
+    <input type="text" id="letra2" maxlength="1" size="1" disabled>
+
+    <input type="text" id="letra3" maxlength="1" size="1" disabled>
+
+    <input type="text" id="letra4" maxlength="1" size="1" disabled> -->
+    <div id="inputs"></div>
+    <br/><br/>
+
+    <input type="text" id="letra" maxlength="1" size="1">
+    <button type="button" onclick="testaLetra()" id="btnTestar">Testar</button> 
+    <button onclick="window.location.replace('index.html')">Reiniciar</button>
+
+    <hr/>
+
+    <span id="letrasErradas">Erros: <br/></span>
+
+    <script>
+        const words = [ "PARA",
+                        "CARA", 
+                        "ABACAXI",
+                        "UVA",
+                        "BANANA",
+                        "AUTOMOVEL",
+                        "CRIANÇA",
+                        "MOTOCICLETA",
+                        "PENEIRA",
+                        "BALA"
+                    ];
+        //sorteei uma palavra do array words   
+        const word = words[Math.floor(Math.random() * words.length)];
+        const divInputs = document.getElementById("inputs");
+        const letra = document.getElementById("letra");
+        var chances = 6;
+        var certas = 0;
+        var inputs = "";
+        for(let i = 0; i < word.length ; i++){
+            inputs += '<input type="text" class="letra" id="letra'+ i +'" maxlength="1" size="1" disabled>';
+        }
+        divInputs.innerHTML = inputs;
+        
+        const letras = document.getElementsByClassName("letra");
+
+        function testaLetra(){
+           index = [];
+           let contador = 0;
+           
+           for(let i = 0; i < letras.length ; i++){
+                if( letras[i].value.toUpperCase() == letra.value.toUpperCase()){
+                    contador++;
+                }
+           }
+           if(contador > 0){
+               return; //para a função
+           }
+
+            for(let i = 0; i <  word.length ; i++){
+                if( word[i] == letra.value.toUpperCase()){
+                    index.push(i);
+                    certas++;
+                }
+            }
+            if(index.length < 1){
+                document.getElementById("letrasErradas").innerHTML += letra.value + " - ";
+                chances--;
+            } else{
+                for(let i = 0 ; i < index.length ; i++){
+                letras[index[i]].value = letra.value;
+                }
+            }
+            setTimeout(function(){
+                 if(certas == word.length){
+                        alert("GANHOU! ACERTô mizeravi")
+                    }else if(chances == 0){
+                        alert("PERDEU!")
+                        letra.disabled = "disabled";
+                        document.getElementById("btnTestar").disabled="disabled";
+                    }
+            },500);
+           
+        }
+    </script>
+</body>
+</html>

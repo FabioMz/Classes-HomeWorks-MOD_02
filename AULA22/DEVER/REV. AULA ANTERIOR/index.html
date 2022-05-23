@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORCA</title>
+    <style>
+        #cabeca{
+            position: absolute;
+            top: 64px;
+            left: 138px;
+            width: 50px;
+            display: none;
+        }
+        #corpo{
+            height: 80px;
+            position: absolute;
+            top: 98px;
+            left: 135px;
+            display: none;
+        }
+        #braco1{
+            transform: rotate(45deg);
+            height: 50px;
+            position: absolute;
+            top: 102px;
+            left: 116px;
+            display: none;
+        }
+        #braco2{
+            transform: rotate(316deg);
+            height: 50px;
+            position: absolute;
+            top: 102px;
+            left: 200px;
+            display: none;
+        }
+        #perna1{
+            transform: rotate(45deg);
+            height: 50px;
+            position: absolute;
+            top: 167px;
+            left: 132px;
+            display: none;
+        }
+        #perna2{
+            transform: rotate(324deg);
+            height: 50px;
+            position: absolute;
+            top: 167px;
+            left: 177px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="forca">
+        <img src="./img/forca.gif" alt="">
+        <img id="cabeca" src="./img/cabeça.png" alt="">
+        <img id="corpo" src="./img/corpo.png" alt="">
+        <img id="braco1" src="./img/membros.png" alt="">
+        <img id="braco2" src="./img/membros.png" alt="">
+        <img id="perna1" src="./img/membros.png" alt="">
+        <img id="perna2" src="./img/membros.png" alt="">
+    </div>
+
+    <div id="inputs"></div>
+    <br/><br/>
+
+    <input type="text" id="letra" maxlength="1" size="1">
+    <button type="button" onclick="testaLetra()" id="btnTestar">Testar</button> 
+    <button onclick="window.location.replace('index.html')">Reiniciar</button>
+
+    <hr/>
+
+    <span id="letrasErradas">Erros: <br/></span>
+
+    <script>
+        const words = [ "PARA",
+                        "CARA", 
+                        "ABACAXI",
+                        "UVA",
+                        "BANANA",
+                        "AUTOMOVEL",
+                        "CRIANÇA",
+                        "MOTOCICLETA",
+                        "PENEIRA",
+                        "BALA"
+                    ];
+        //sorteei uma palavra do array words   
+        const word = words[Math.floor(Math.random() * words.length)];
+        const divInputs = document.getElementById("inputs");
+        const letra = document.getElementById("letra");
+        var erros = 0;
+        var certas = 0;
+        var inputs = "";
+        for(let i = 0; i < word.length ; i++){
+            inputs += '<input type="text" class="letra" id="letra'+ i +'" maxlength="1" size="1" disabled>';
+        }
+        divInputs.innerHTML = inputs;
+        
+        const letras = document.getElementsByClassName("letra");
+        const imagens = document.getElementsByTagName("img");
+        console.log(imagens)
+        function testaLetra(){
+           index = [];
+           let contador = 0;
+           
+           for(let i = 0; i < letras.length ; i++){
+                if( letras[i].value.toUpperCase() == letra.value.toUpperCase()){
+                    contador++;
+                }
+           }
+           if(contador > 0){
+               return; //para a função
+           }
+
+            for(let i = 0; i <  word.length ; i++){
+                if( word[i] == letra.value.toUpperCase()){
+                    index.push(i);
+                    certas++;
+                }
+            }
+            if(index.length < 1){
+                document.getElementById("letrasErradas").innerHTML += letra.value + " - ";
+                erros++;
+                imagens[erros].style.display = "block";
+            } else{
+                for(let i = 0 ; i < index.length ; i++){
+                letras[index[i]].value = letra.value;
+                }
+            }
+            setTimeout(function(){
+                 if(certas == word.length){
+                        alert("GANHOU! ACERTô mizeravi")
+                    }else if(erros == 6){
+                        alert("PERDEU!")
+                        letra.disabled = "disabled";
+                        document.getElementById("btnTestar").disabled="disabled";
+                    }
+            },500);
+           
+        }
+    </script>
+</body>
+</html>

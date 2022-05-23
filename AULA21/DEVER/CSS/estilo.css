@@ -1,0 +1,178 @@
+* {
+    color: ivory;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-color: rgb(32, 34, 34);
+}
+
+#miseraviCont {
+    display: none;
+    margin-top: 10.5%;
+    margin-left: 15%;
+    position: absolute;
+}
+
+#erooCont {
+    display: none;
+    margin-top:10%;
+    margin-left: 70%;
+    position: absolute;
+}
+
+#faustoGanhaCont {
+    display: none;
+    margin-top: 5.5%;
+    margin-left: 42%;
+    position: absolute;
+}
+
+#f11 {
+    font-size: 20pt;
+    color: rgb(17, 196, 26);;
+}
+
+.title {
+    margin-top: 2%;
+}
+
+.title_01 {
+    font-size: 35pt;
+}
+
+.title_02 {
+    margin-top: 2%;
+    font-size: 18pt;
+}
+
+.title_03 {
+    font-size: 14pt;
+}
+
+#inputLetra {
+    color: #202222;
+}
+
+.letrasErradas {
+    margin-top: 25px;
+}
+
+#letrasErradas {
+    color: rgb(185, 34, 34);
+    font-size: 20pt;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+
+#erros {
+    color: ivory;
+    font-size: 20pt;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+
+.goodWords {
+    color: rgb(17, 196, 26);
+    font-size: 20pt;
+}
+
+.goreWords {
+    color: rgb(185, 34, 34);
+    font-size: 20pt;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+
+.erooou {
+    font-size: 30pt;
+}
+
+.enforcado {
+    font-size: 30pt;
+    display: none;
+    margin-top: 5%;
+    margin-left: 7%;
+    position: absolute;
+}
+
+.mainSect {
+    margin: 2%;
+}
+
+.sectLeft {
+    height: 500px;
+}
+
+.sectRight {
+    height: 500px;
+}
+
+.sectForca {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./IMG/forcaEmpty.png);
+}
+
+#cabeca {
+    position: absolute;
+    top: 295px;
+    left: 860px;
+    display: none;
+}
+
+#corpo {
+    position: absolute;
+    top: 295px;
+    left: 860px;
+    display: none;
+}
+
+#bracoD {
+    position: absolute;
+    top: 295px;
+    left: 860px;
+    display: none;
+}
+
+#bracoE {
+    position: absolute;
+    top: 295px;
+    left: 860px;
+    display: none;
+}
+
+#pernaD {
+    position: absolute;
+    top: 295px;
+    left: 860px;
+    display: none;
+}
+
+#pernaE {
+    position: absolute;
+    top: 295px;
+    left: 860px;
+    display: none;
+}
+
+.sectForm {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+#cronometro {
+    font-size: 60pt;
+    margin-top: 160px;
+    margin-left: -75px;
+    position: absolute;
+}
+
+#btn-tentaOutra {
+    display: none;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
